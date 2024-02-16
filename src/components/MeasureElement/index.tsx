@@ -8,6 +8,7 @@ const MeasureElement: FC = () => {
     const measure = divRef.current!.offsetWidth;
     setWidth(measure);
   };
+  
 
   return (
     <>

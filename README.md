@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Exercício de Nível Básico e Intermediário com React e TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+exercício de nível básico e intermediário utilizando React e Typescript do curso de frontend da AdaTech em Paceria com o IFood, módulo 5
+Este é um projeto desenvolvido como parte do módulo 5 do curso de Frontend da AdaTech em parceria com o IFood. O objetivo deste exercício é praticar conceitos de desenvolvimento frontend utilizando React e TypeScript.
 
-Currently, two official plugins are available:
+## Descrição
+O projeto consiste em um conjunto de exercícios de nível básico e intermediário, onde os alunos aplicam os conhecimentos adquiridos durante o curso. O foco principal é o desenvolvimento de aplicações web utilizando React e TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- React
+- TypeScript
+- vite
 
-## Expanding the ESLint configuration
+## Como Executar o Projeto
+1. Clone este repositório para o seu computador.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências do projeto com o comando:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```sh
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Após a instalação das dependências, execute o projeto com o comando:
+
+```sh
+npm run dev
+```
+
+5. Pressione Ctrl + Click no link gerado para abrir o projeto no seu navegador.
